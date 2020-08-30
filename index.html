@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css"/>
-    <title>About Me</title>
-</head>
-<body>
-  <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #19b888;">
-        <a class="navbar-brand">Ray Nguyen</a>
-          <ul class="navbar-nav">
-              <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/95ca9deb36.js"crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>Ray Nguyen</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="page-header body-section">
+      <div class="nav-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-  <!--About Me--> 
-  <div class="container">
-     <div class="row">
-        <div class="col-sx-6">
-            <h1>About Me</h1>
-     </div>
-  </div>     
-  <div class="container">
-     <div class="row">
-       <div class="col-6">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/capture.jpg" class="card-img-top" alt="picture of myself">
-          </div>
-       </div>
-          <div class="col-6">
-            <section class="card-text">My name is Ray Nguyen. I am 22 years old and I am from Niles, IL. My hobbies include: dancing, playing video games, and skateboarding
-              <br>
-              <br>
-            I have an Associates of Arts degree that I acquired from graduating Oakton Community College. I am currently attending Northwestern University's Full-stack boot camp program. 
-            </section>
-          </div>
-         
-
-            
+		<!-- Body -->
+    <section class="body-section">
+      <div class="container">
+        <div class="align-items-center">
+          <div class="box">
+            <div class="media">
+              <div class="selfie">
+                <img src="img/headshot.jpg" alt="Headshot" />
+              </div>
+              <div class="body">
+                <div class="about">
+                  <h3>Ray Nguyen</h3>
+                  <h4>About Myself</h4>
+                  <p>
+                    Hello, my name is Ray Nguyen and I'm currently learning Full Stack Web Development at Northwestern University. I recently graduated from Oakton Community College with an Associates of Arts degree.
+									</p>
+									<p>
+										Aside from coding, I have a background in dance and have worked with artists such as Chance the Rapper, Eryn Allen Kane, Ian Eastwood, and the world-renowned K-pop band, BTS.
+									</p>
+                  <ul class="info">
+                    <ul><i class="fas fa-birthday-cake"></i> 15th September, 1997</ul>
+										<ul><i class="fas fa-home"></i> Chicago, IL</ul>
+										<ul><i class="fas fa-envelope-open-text"></i> <a href="https://drive.google.com/file/d/11q8g8BILOUixdvKlG6TEjyVQUHMe9MKu/view?usp=sharing" target="_blank">Resume</a></ul>
+									</ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-       </div>
-  </div>
-</div>
-<br>
-<br>
-  <div class="footer">
-    <p>Ray Nguyen</p>
-  </div>
-       
-</body>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="col-sm-6">Copyright &copy; 2020. All Rights Reserved</div>
+      </div>
+    </footer>
+  </body>
 </html>

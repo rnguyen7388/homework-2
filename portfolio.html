@@ -1,50 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/95ca9deb36.js"crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <title>Portfolio</title>
-</head>
-<body>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #19b888;">
-    <a class="navbar-brand">Ray Nguyen</a>
-      <ul class="navbar-nav">
-          <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>   
+  </head>
+    <body>
+        <!-- Header -->
+				<header class="page-header body-section">
+					<div class="nav-top">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<div class="container">
+								<ul class="nav navbar-nav ml-auto">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="portfolio.html">Portfolio</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</header>
 
-<div class="container">
-    <br>
-    <div row="col-md-6">
-        <a href="https://rnguyen7388.github.io/DinnerDecider/" target="_blank" class="txtSize" >Dinner Decider</a>
-        <img class="picSize" src="assets/images/dinnerdecider.PNG">
-        <div row="col-md-6">
-        <a href="https://rnguyen7388.github.io/homework-5/" target="_blank" class="txtSize" >Work Scheduler</a>
-        <img class="picSize" src="assets/images/workscheduler.PNG">
-        <div row="col-md-6">
-        <a href="https://rnguyen7388.github.io/homework-6/" target="_blank" class="txtSize" >Weather Dashboard</a>
-        <img class="picSize" src="assets/images/weatherdashboard.PNG">
-      
-     <br>
-     <br>
-        </div>
-</div>
-<br>
-<br>
-<div class="footer">
-  <p>Ray Nguyen</p>
-</div>
-
-</body>
+				<!-- Portfolio -->
+		<div class="container-fluid">
+				<section class="container"> 
+					<div class="portfolio">
+					<h2>PORTFOLIO</h2>
+					</div>
+				</section>
+    	<div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+        		<div class="project-item">
+							<div class="dinnerdecider">
+								<h4>Dinner Decider</h4>
+							</div>
+        			<a href="https://rnguyen7388.github.io/DinnerDecider/" target="_blank"><img class="img-fluid" src="img/dinnerdecider.jpg" alt="Dinner Decider"></a>
+        		</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="project-item">
+						<div class="notify">
+							<h4>Notify</h4>
+						</div>
+						<a href="https://pacific-thicket-40936.herokuapp.com/" target="_blank"><img class="img-fluid" src="img/notfiy.jpg" alt="Notfiy" /></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="project-item">
+						<div class="notetaker">
+							<h4>Note Taker</h4>
+						</div>
+						<a href="https://thawing-river-09819.herokuapp.com/" target="_blank"><img class="img-fluid" src="img/notetaker.jpg" alt="Note Taker" /></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="project-item">
+						<div class="starwars">
+							<h4>Star Wars Character Creation</h4>
+						</div>
+						<a href="https://whispering-springs-13839.herokuapp.com/" target="_blank"><img class="img-fluid" src="img/starwars.jpg" alt="Star Wars" /></a>
+					</div>
+				</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="project-item">
+					<div class="teamgenerator">
+						<h4>Employee Generator</h4>
+					</div>
+					<a href="https://github.com/rnguyen7388/teamGenerator" target="_blank"><img class="img-fluid" src="img/teamgenerator.jpg" alt="Empoyee Generator" /></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="project-item">
+					<div class="weatherdashboard">
+						<h4>Weather Dashboard</h4>
+					</div>
+					<a href="https://rnguyen7388.github.io/weather/" target="_blank"><img class="img-fluid" src="img/weatherdashboard.JPG" alt="Weather Dashboard" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+						
+			<!-- Footer -->
+  		<footer>
+    		<div class="footer">
+      		<div class="col-sm-6">Copyright &copy; 2020. All Rights Reserved</div>
+    		</div>
+  		</footer>
+    </body>
 </html>

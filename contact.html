@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/95ca9deb36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <title>Contact</title>
-</head>
-<body>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #19b888;">
-    <a class="navbar-brand">Ray Nguyen</a>
-      <ul class="navbar-nav">
-          <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>   
-  
-  <div class="container">
-        <div class="row">
-           <div class="card" style="width: 18rem;">
-             <div class="card-body">
-                 <h1>Contact</h1>
-               <p class="card-text"> </p>
-               </div>
-             </div>
-          </div>  
-  <form>
-    <div class="form-group">
-        <label for="name">Name</label>
-            <input type="name" class="form-control" id="name1" aria-describedby="nameHelp">
-                <small id="nameHelp" class="form-name">John Smith
-                </small>
-    </div>
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">example@gmail.com
-                </small>
-    </div>
-    <div class="form-group">
-        <label for="message">Message</label>
-            <input type="message" class="form-control" id="message1">
-    </div>
-        <div class="form-group form-check">
-            <button type="submit" class="btn btn-primary">Submit
-            </button>
-  </form>
-  <br>
-  <br>
-  <br>
-  <div class="col-lg">
-    <aside>Contacts: <a href="https://www.linkedin.com/in/raymond-nguyen-241542193/" target="_blank">Linkedin.com</a>
-    <a href="https://www.facebook.com/raynguyen0/" target="_blank">Facebook.com</a>
-  </aside>
-</div>
-<br>
-<br>
-<div class="footer">
-  <p>Ray Nguyen</p>
-</div>
+  </head>
+  <body>
+          <!-- Header -->
+    <header class="page-header body-section">
+        <div class="nav-top">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-</body>
+      <!-- Form -->
+      <div class="container-fluid">
+        <section class="container"> 
+            <div class="portfolio">
+                <h2>CONTACT</h2>
+            </div>
+        </section>
+        <form>
+            <div class="container">
+            <div class="form-group">
+                <label for="name">Name</label>
+                    <input type="name" class="form-control" placeholder="Enter first and last name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" placeholder="Enter email">   
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                    <input type="message" class="form-control" placeholder="Enter message">
+            </div>
+                <div class="form-group form-check">
+                    <button type="submit" class="btn btn-secondary">Submit
+                    </button>
+                </div>
+            </div>
+          </form>
+            <div class="contact">
+                <ul><i class="fas fa-phone-square fa"></i> (224) 637-7828</ul>
+                <ul><i class="fas fa-envelope fa"></i> rnguyen7388@gmail.com</ul>
+            </div>
+            <div>
+                <ul class="social-media">
+                    <ul><a href="https://github.com/rnguyen7388" target="_blank"><i class="fab fa-github fa-3x" style="color: #211F1F"></i></a></ul>
+                    <br />
+                    <ul><a href="https://www.linkedin.com/in/raymond-nguyen-241542193/" target="_blank"><i class="fab fa-linkedin fa-3x" style="color: #0072b1"></i></a></ul>
+                </ul>
+              </div>
+      </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="col-sm-6">Copyright &copy; 2020. All Rights Reserved</div>
+      </div>
+    </footer>
+  </body>
 </html>
